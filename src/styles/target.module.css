@@ -1,0 +1,58 @@
+
+
+
+.tituloTarget{
+    color: #e99401;
+    font-size: 3rem;
+}
+.descripcion{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+.precio{
+    font-weight: bold;
+    color: #e99401;
+    font-size: 2rem;
+
+}
+.buttonVer{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: #e99401;
+    color: white; 
+    font-weight: bold;
+
+}
+.buttonVer:hover{
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    background-color: #b27409;
+}
+
+
+
+.target{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.imagenTarget{
+    max-width: 15rem;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 768px){
+
+
+    .target{
+        flex-direction: row;
+    }
+}

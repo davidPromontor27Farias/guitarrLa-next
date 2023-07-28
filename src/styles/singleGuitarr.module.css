@@ -1,0 +1,80 @@
+
+
+.singleContenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    max-width: 60rem;
+    margin: 10rem auto;
+
+}
+
+.imagenTarget{
+    max-width: 20rem;
+}
+.tituloTarget, .precio{
+    color: #e99401;
+    text-align: center;
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: start;
+}
+
+.infoTarg{
+    padding: 1.5rem;
+  }
+
+.formularioSelect{
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioSelect label{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.formularioSelect select{
+    text-align: center;
+    border: 1px solid rgb(33, 32, 32);
+}
+
+.formularioSelect input[type='submit']{
+    background-color: #e99401;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem .5rem;
+    transition: .3s ease-in-out;
+    border: none;
+}
+
+.formularioSelect input[type='submit']:hover{
+    cursor: pointer;
+    background-color: #916211 ;
+}
+
+
+.mensaje{
+    text-align: center;
+    background-color: rgb(33, 143, 33);
+    padding: 1rem .5rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media (min-width: 768px){
+
+    .singleContenedor{
+        flex-direction: row;
+    }
+
+    .infoTarg{
+        padding: 0;
+    }
+}

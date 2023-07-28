@@ -1,0 +1,26 @@
+
+
+.footer{
+    background-color: rgb(37, 35, 35);
+    padding: 3rem 0;
+    margin-top: 5rem;
+}
+
+.footer nav{
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
+
+.legend{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+@media (min-width: 768px ){
+
+    .footer nav{
+        flex-direction: row;
+    }
+}

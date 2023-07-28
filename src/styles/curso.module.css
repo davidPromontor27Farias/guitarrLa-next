@@ -1,0 +1,28 @@
+
+
+
+.descripcion{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 1.5rem;
+
+}
+
+.contenedorGrid{
+    padding: 10rem 0;
+    color: white;
+    text-align: center;
+}
+
+.tituloCurso{
+    color: orange;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.descripcion{
+    font-weight: bold;
+}
+

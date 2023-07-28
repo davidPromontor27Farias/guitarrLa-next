@@ -1,0 +1,31 @@
+
+.contenedorProducto{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    border-bottom: 1px solid rgb(61, 57, 57);
+    
+}
+
+.precio{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #e99401;
+}
+
+.cantidad{
+    width: 100%;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.imgDelete{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.imgDelete:hover{
+    cursor: pointer;
+    
+}
